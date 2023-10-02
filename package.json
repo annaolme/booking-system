@@ -1,0 +1,24 @@
+{
+  "name": "booking-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@prisma/client": "^5.4.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.4.0",
+    "typescript": "^5.2.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0"
+  }
+}
