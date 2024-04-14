@@ -37,3 +37,5 @@ npm run dev
 - `GET/POST /api/services` — list/create services
 - `GET/POST /api/bookings` — list/create bookings
 - `PATCH/DELETE /api/bookings/:id` — update status/delete
+
+Uses Prisma 5.x with PostgreSQL.
